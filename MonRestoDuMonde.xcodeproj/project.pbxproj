@@ -11,6 +11,7 @@
 		84D4AD002253F859008A0030 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4ACFF2253F859008A0030 /* ALaCarteController.swift */; };
 		84D4AD022253FD3C008A0030 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AD012253FD3C008A0030 /* MonTabBar.swift */; };
 		84D4AD052253FDD0008A0030 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AD042253FDD0008A0030 /* Constantes.swift */; };
+		84D4AD0722540081008A0030 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4AD0622540081008A0030 /* MonNav.swift */; };
 		84F9164F222FEC5D004CCE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9164E222FEC5D004CCE93 /* AppDelegate.swift */; };
 		84F91654222FEC5D004CCE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F91652222FEC5D004CCE93 /* Main.storyboard */; };
 		84F91656222FEC5F004CCE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F91655222FEC5F004CCE93 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		84D4ACFF2253F859008A0030 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 		84D4AD012253FD3C008A0030 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		84D4AD042253FDD0008A0030 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		84D4AD0622540081008A0030 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		84F9164B222FEC5D004CCE93 /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F9164E222FEC5D004CCE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F91653222FEC5D004CCE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				84D4ACFD2253F789008A0030 /* MenuController.swift */,
 				84D4ACFF2253F859008A0030 /* ALaCarteController.swift */,
 				84D4AD012253FD3C008A0030 /* MonTabBar.swift */,
+				84D4AD0622540081008A0030 /* MonNav.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				84D4AD052253FDD0008A0030 /* Constantes.swift in Sources */,
 				84D4AD022253FD3C008A0030 /* MonTabBar.swift in Sources */,
+				84D4AD0722540081008A0030 /* MonNav.swift in Sources */,
 				84D4ACFE2253F789008A0030 /* MenuController.swift in Sources */,
 				84F9164F222FEC5D004CCE93 /* AppDelegate.swift in Sources */,
 				84D4AD002253F859008A0030 /* ALaCarteController.swift in Sources */,
