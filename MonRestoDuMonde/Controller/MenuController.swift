@@ -25,6 +25,10 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
         collectionView.delegate = self
         collectionView.dataSource = self
         
+        let vue = UIView(frame: collectionView.bounds)
+        vue.layer.addSublayer(Degrade())
+        collectionView.backgroundView = vue
+        
         menus = LesPlats.obtenir.lesMenus()
         //si la requete est un peu longue:
         collectionView.reloadData()
@@ -36,8 +40,10 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let menu = menus[indexPath.item]
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellID, for: indexPath) as? MenuCell {
-            cell.backgroundColor = GRIS_TRES_FONCE
+            cell.miseEnPlace(menu: menu)
+            
             return cell
         }
         return UICollectionViewCell()
